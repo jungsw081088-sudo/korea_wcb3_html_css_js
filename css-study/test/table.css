@@ -1,0 +1,70 @@
+.toptitle {
+    font-size: 30px;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    margin: auto;
+}
+
+.board {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.servetitle {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.title {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.board thead {
+    background-color: #eee;
+    border-bottom: 1.5px solid black;
+    padding: 10px;
+}
+
+.board tbody td {
+    border: none;
+    /* 1,2,3,4,5,6,7,8,9,a,b,c,d,e,f */
+    border-bottom: 1px solid #eee;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.board tbody:hover {
+    background-color: #999;
+}
+
+.board th:nth-child(1),
+.board td:nth-child(1) {
+    width: 80px;
+}
+
+.board th:nth-child(2),
+.board td:nth-child(2) {
+    width: 150px;
+}
+
+.board th:nth-child(3),
+.board td:nth-child(3) {
+    width: 80px;
+}
+
+.board th:nth-child(4),
+.board td:nth-child(4) {
+    width: 80px;
+}
+
+.board th:nth-child(5),
+.board td:nth-child(5) {
+    width: 80px;
+}
