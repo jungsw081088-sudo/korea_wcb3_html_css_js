@@ -44,6 +44,20 @@
     cursor: pointer;
 }
 
+.has-sub {
+    position: absolute;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: #292929;
+
+    opacity: 0;
+    pointer-events: none;
+}
+
 /* 알림박스 */
 .notice {
     /* 하위자식이 absolute면 relative 준다. */

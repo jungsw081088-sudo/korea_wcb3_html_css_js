@@ -1,0 +1,23 @@
+.card {
+    width: 140px;
+    height: 140px;
+    margin: 120px auto;
+    background-color: orange;
+
+    /* 효과
+    0.5초 시간동안 ease 효과를 줘서 변화시키세요
+    */
+    /* 
+    ease : 느리다가 중간에 빨라지다 마지막에 느려짐
+    ease-in : 느리다가 빨라짐
+    ease-out : 빠르다가 느려짐
+    */
+    transition: transform 1s ease;
+}
+
+.card:hover {
+    transform: scale(1.3) rotate(360deg);
+    background-color: blue;
+    /* 불투명도 1~0 */
+    opacity: 0;
+}
